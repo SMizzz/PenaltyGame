@@ -7,19 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F09235B257BF00C002F60D5 /* PenalistListCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F09235A257BF00C002F60D5 /* PenalistListCellController.swift */; };
+		1F6710C1257916FF00C95129 /* PenalistListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6710C0257916FF00C95129 /* PenalistListViewController.swift */; };
+		1F83E493256DE8C500335399 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F83E492256DE8C500335399 /* ResultViewController.swift */; };
 		1FB61E0F256669EC00847DA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB61E0E256669EC00847DA4 /* AppDelegate.swift */; };
 		1FB61E11256669EC00847DA4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB61E10256669EC00847DA4 /* SceneDelegate.swift */; };
-		1FB61E13256669EC00847DA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB61E12256669EC00847DA4 /* ViewController.swift */; };
+		1FB61E13256669EC00847DA4 /* InputController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB61E12256669EC00847DA4 /* InputController.swift */; };
 		1FB61E16256669EC00847DA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FB61E14256669EC00847DA4 /* Main.storyboard */; };
 		1FB61E18256669ED00847DA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FB61E17256669ED00847DA4 /* Assets.xcassets */; };
 		1FB61E1B256669ED00847DA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FB61E19256669ED00847DA4 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F09235A257BF00C002F60D5 /* PenalistListCellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PenalistListCellController.swift; sourceTree = "<group>"; };
+		1F6710C0257916FF00C95129 /* PenalistListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PenalistListViewController.swift; sourceTree = "<group>"; };
+		1F83E492256DE8C500335399 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		1FB61E0B256669EC00847DA4 /* PenaltyGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PenaltyGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FB61E0E256669EC00847DA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1FB61E10256669EC00847DA4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1FB61E12256669EC00847DA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1FB61E12256669EC00847DA4 /* InputController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputController.swift; sourceTree = "<group>"; };
 		1FB61E15256669EC00847DA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1FB61E17256669ED00847DA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FB61E1A256669ED00847DA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,6 +43,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F544F5D256BA7980033C6E1 /* Supportings */ = {
+			isa = PBXGroup;
+			children = (
+				1FB61E1C256669ED00847DA4 /* Info.plist */,
+			);
+			path = Supportings;
+			sourceTree = "<group>";
+		};
+		1F544F60256BA7F40033C6E1 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				1FB61E0E256669EC00847DA4 /* AppDelegate.swift */,
+				1FB61E10256669EC00847DA4 /* SceneDelegate.swift */,
+				1FB61E12256669EC00847DA4 /* InputController.swift */,
+				1F83E492256DE8C500335399 /* ResultViewController.swift */,
+				1F6710C0257916FF00C95129 /* PenalistListViewController.swift */,
+				1F09235A257BF00C002F60D5 /* PenalistListCellController.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		1F544F62256BA8240033C6E1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1FB61E14256669EC00847DA4 /* Main.storyboard */,
+				1FB61E19256669ED00847DA4 /* LaunchScreen.storyboard */,
+				1FB61E17256669ED00847DA4 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		1FB61E02256669EC00847DA4 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +93,9 @@
 		1FB61E0D256669EC00847DA4 /* PenaltyGame */ = {
 			isa = PBXGroup;
 			children = (
-				1FB61E0E256669EC00847DA4 /* AppDelegate.swift */,
-				1FB61E10256669EC00847DA4 /* SceneDelegate.swift */,
-				1FB61E12256669EC00847DA4 /* ViewController.swift */,
-				1FB61E14256669EC00847DA4 /* Main.storyboard */,
-				1FB61E17256669ED00847DA4 /* Assets.xcassets */,
-				1FB61E19256669ED00847DA4 /* LaunchScreen.storyboard */,
-				1FB61E1C256669ED00847DA4 /* Info.plist */,
+				1F544F60256BA7F40033C6E1 /* Sources */,
+				1F544F62256BA8240033C6E1 /* Resources */,
+				1F544F5D256BA7980033C6E1 /* Supportings */,
 			);
 			path = PenaltyGame;
 			sourceTree = "<group>";
@@ -137,9 +170,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FB61E13256669EC00847DA4 /* ViewController.swift in Sources */,
+				1F6710C1257916FF00C95129 /* PenalistListViewController.swift in Sources */,
+				1FB61E13256669EC00847DA4 /* InputController.swift in Sources */,
 				1FB61E0F256669EC00847DA4 /* AppDelegate.swift in Sources */,
 				1FB61E11256669EC00847DA4 /* SceneDelegate.swift in Sources */,
+				1F09235B257BF00C002F60D5 /* PenalistListCellController.swift in Sources */,
+				1F83E493256DE8C500335399 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +324,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W483T5Y4MX;
-				INFOPLIST_FILE = PenaltyGame/Info.plist;
+				INFOPLIST_FILE = PenaltyGame/Supportings/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +343,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W483T5Y4MX;
-				INFOPLIST_FILE = PenaltyGame/Info.plist;
+				INFOPLIST_FILE = PenaltyGame/Supportings/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
