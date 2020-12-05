@@ -42,6 +42,21 @@
             </objects>
             <point key="canvasLocation" x="796" y="55"/>
         </scene>
+        <!--View Controller03-->
+        <scene sceneID="wxU-Xz-BJn">
+            <objects>
+                <viewController storyboardIdentifier="ViewController03" id="L9v-jM-NfR" customClass="ViewController03" customModule="PenaltyGame" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1Oc-y5-WF4">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Prc-h3-Ved"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ygC-R7-I4w" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1576.8115942028987" y="54.910714285714285"/>
+        </scene>
     </scenes>
     <resources>
         <systemColor name="systemBackgroundColor">
